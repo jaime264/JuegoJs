@@ -182,6 +182,7 @@
               if(numeroColor === this.secuencia[this.subNivel]){
                 this.subNivel++
                 if(this.subNivel === this.nivel){
+                  this.nivel++
                   this.eliminarEventosClick()
                   if(this.nivel === ULTIMO_NIVEL + 1){
                    //gano 
